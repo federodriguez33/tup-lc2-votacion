@@ -11,9 +11,145 @@
 }
 
 .barra-menu{
-    margin-left: 13px;
-    margin-right: 13px;
-    padding-top: 20px;
+    display: flex;
+    height: 35px;
     background-color: var(--fondo-Menu);
     width: 100%;
+}
+
+.barra-menu p{
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.barra-menu button{
+    position: relative;
+    margin: 5px;
+    margin-left: 10px;
+    left: 10px;
+    width: 110px;
+    height: 25px;
+}
+
+.paso{
+    background-color: var(--magenta);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.paso:hover{
+    background-color: var(--gris-claro);
+}
+
+.generales{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.generales:hover{
+    background-color: var(--gris-claro);
+}
+
+.informes{
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.informes:hover{
+    background-color: var(--gris-claro);
+}
+
+#sec-titulo{
+    display: flex;
+    
+}
+
+#sec-titulo h1{
+    white-space: nowrap;
+    padding-top: 20px;
+    margin-left: 88px;
+}
+
+#sec-titulo p{
+    padding-top: 80px;
+    margin-left: -265px;
+    line-height: 2;
+    
+}
+
+#sec-titulo img{
+    float: left;
+    margin-top: 50px;
+    margin-right: 200px;
+    right: 300px;
+    
+}
+
+#sec-contenido{
+    display: flex;
+}
+
+#sec-contenido h2{
+    white-space: nowrap;
+    padding-top: 10px;
+    margin-left: 88px;
+}
+
+#sec-contenido p{
+    padding-top: 48px;
+    margin-left: -163px;
+}
+
+#sec-contenido button{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.paso2{
+    background-color: var(--magenta);
+    border-radius: 10px;
+    margin: 25px;
+    height: 100px;
+    width: 300px;
+    padding: 1px;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 80px;
+}
+
+.paso2:hover{
+    background-color: var(--gris-claro);
+}
+
+.generales2{
+    background-color: var(--celeste);
+    border-radius: 10px;
+    margin: 25px;
+    height: 100px;
+    width: 300px;
+    padding: 1px;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 20px;
+}
+
+.generales2:hover{
+    background-color: var(--gris-claro);
+}
+
+.urna{
+    position: absolute;
+    bottom: 50px;
+    
 }

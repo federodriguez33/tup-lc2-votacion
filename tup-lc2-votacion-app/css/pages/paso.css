@@ -1,0 +1,93 @@
+.header-page{
+    padding: 0.5em;
+    background-color: var(--fondo-Cabecera);
+    color: white;
+    width: 100%;
+    margin: 0px auto auto;
+}
+
+.barra-menu{
+    display: flex;
+    height: 38px;
+    background-color: var(--fondo-Menu);
+    width: 100%;
+}
+
+select{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    color: var(--celeste);
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+
+#año{
+    padding-right: 15px;
+}
+
+#cargo{
+    padding-right: 30px;
+}
+
+#distrito{
+    padding-right: 30px;
+}
+
+.filtrar{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+    font: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--textos);
+    width: 90px;
+
+}
+
+.barra-menu button{
+    position: relative;
+    margin: 5px;
+    margin-right: 20px;
+    margin-left: -15px;
+    left: 10px;
+    height: 28px;
+}
+
+.generales{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 95px;
+}
+
+.generales:hover{
+    background-color: var(--gris-claro);
+}
+
+.informes{
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 95px;
+}
+
+.informes:hover{
+    background-color: var(--gris-claro);
+}
+
+.inicio{
+    background-color: var(--gris-claro);
+    right: 80px;
+}
+

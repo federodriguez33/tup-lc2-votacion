@@ -16,17 +16,24 @@
     <header>
         <!--Barra de logo portal-->
         <div class="header-page">
-            <a href="index.html"></a><img src="img/icons/Logo_DINE_negativo.a88f983e.png" alt="logo" class="logo"> Dirección Nacional
-            Electoral
+            <a href="index.html"></a><img src="img/icons/Logo_DINE_negativo.a88f983e.png" alt="logo" class="logo">
         </div>
         <!--Barra de menú principal-->
-        <ul>
-            <li>Año</li>
-            <li>Cargo</li>
-            <li>Distrito</li>
-            <li>Filtrar</li>
-            <li><a class="active" href="informes.html">Informes</a></li>
-            <li><a href="index.html">INICIO</a></li>
+        <div class="barra-menu">
+            <select id="año">
+                <option value="año-opc">Año</option>
+            </select>
+            <select id="cargo">
+                <option value="cargo-opc">Cargo</option>
+            </select>
+            <select id="distrito">
+                <option value="distrito-opc">Distrito</option>
+            </select>
+            <a href=""><button class="filtrar">filtrar<img src="fa-search" alt=""></button></a>
+            <a href="generales.html"><button class="generales">generales</button></a>
+            <a href="informes.html"><button class="informes">informes</button></a>
+            <a href="index.html"><button class="inicio">inicio</button></a>
+        </div>  
         </ul>
     </header>
     <!-- Contenido principal de la página -->
