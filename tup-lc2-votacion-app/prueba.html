@@ -9,20 +9,52 @@
 
 <body>
 
+    <p id="mensaje"></p>
+    <input id='claveUsr' type="text" value="ingrese valor">
+    <button id="btnValidar">Validar</button>
+
+
     <script>
 
-    let x = 5;
-    let y = 10;
+        var clave = "ornitorrinco";
+        var contador = 0;
 
-    x += ++x;
-    y += y--;
-    alert(x);
-    alert(y);
+        function mensaje(valido, msg) {
+            let pmensaje = document.getElementById('mensaje');
+            if (valido) {
+                pmensaje.style.color = "green";
+                pmensaje.innerText = "Acceso concedido";
 
-    let z = x + y;
-    alert(x);
-    alert(y);
-    
+            } else {
+                pmensaje.style.color = "red";
+                pmensaje.innerText = "Clave incorrecta";
+
+            }
+        }
+
+        function validar() {
+            let inputText = document.getElementById('claveUsr');
+            var valorIngresado = inputText.value;
+            if (clave == valorIngresado) {
+                mensaje(true, "Clave incorrecta");
+                contador = 0;
+            }
+            else {
+
+                contador = contador + 1;
+                if (contador > 2) {
+                    alert("Intruso");
+                }
+                else {
+                    mensaje(false, "Clave incorrecta");
+                }
+            }
+
+        }
+
+        let btnValidar = document.getElementById('btnValidar');
+        btnValidar.onclick = validar;
+
     </script>
 
 </body>
