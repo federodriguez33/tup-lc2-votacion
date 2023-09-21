@@ -231,3 +231,57 @@ select{
     padding-top: 5px;
     padding-left: 50px;
 }
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadros div{
+    border-radius: 25px;
+    border: 1px var(--borde-Grilla) solid;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    width: 30%;
+}
+
+.cuadros h4{
+    font-weight: bold;
+    padding: 0.8em 0 0 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.cuadro-1{
+    max-height: 325px;
+    overflow-y: scroll; 
+}
+
+.cuadro-1 p{
+    font-size: 11px;
+    color: var(--textos);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.progress{ 
+    height: 35px; 
+    width: 100%; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+} 
+
+.progress-bar{ 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    transition: width 0.25s; 
+    border-radius: 5px; 
+} 
+
+.progress-bar-text{ 
+    margin-left: 10px; 
+    font-weight: bold; 
+    color: var(--textos); 
+    font-size: 9px; 
+}
