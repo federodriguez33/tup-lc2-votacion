@@ -78,6 +78,7 @@
     position: relative;
     top: 30px;
     width: 400px;
+    height: 60px;
     margin: 20px auto;
     padding: 15px;
     border-radius: 10px;
@@ -91,6 +92,7 @@
     background-color: var(--mensaje-usuario-verde);
 }
 
+
 .mens2{
     background-color: var(--mensaje-usuario-rojo);
 }
@@ -100,15 +102,15 @@
 }
 
 #sec-titulo h1{
-    margin: 60px 100px 5px;
+    margin: 60px 165px 5px;
 }
 
-table{ 
-    width: 1024px !important;
+#sec-contenido{
+    width: 1024px;
     margin: 0px auto 50px auto;
-    border-radius: 15px !important;
+    border-radius: 15px;
     border: 1px solid var(--borde-Grilla);
-    border-collapse: collapse !important;
+    border-collapse: collapse;
     background-color: rgb(250, 250, 250);
 }
 
@@ -117,18 +119,14 @@ thead{
     color: var(--titulo-Grilla);
     padding: 10px 20px;
     font-size: 14px;
+    height: 30px;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px solid var(--borde-inferior-Grilla);
 }
 
-tr:hover{
-    background-color: rgb(250, 250, 250);
-}
-
 td{
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid var(--borde-inferior-Grilla);
+    background-color: rgb(250, 250, 250);
     padding: 15px 0px;
     font-size: 12px;
     vertical-align: top;
@@ -139,11 +137,14 @@ td{
     font-size: 12px;
     color: var(--textos);
     font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .texto-path-chico{
     font-size: 11px;
     color: var(--celeste);
+    text-align: left;
 }
 
 .recuadros{
@@ -246,15 +247,28 @@ td{
     padding: 5px;
     font-size: 10px;
     color: var(--textos);
-    margin-top: 20px;
-     
 }
 
 .juntos{
     font-weight: bold;
     text-transform: uppercase;
+    text-align: left;
+    margin-top: 15px;
 }
 
 .num{
     text-align: left;
+    margin-top: 15px;
+}
+
+.pj{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -60px;
+    text-align: left;
+}
+
+.num2{
+    text-align: left;
+    margin-top: -60px;
 }
