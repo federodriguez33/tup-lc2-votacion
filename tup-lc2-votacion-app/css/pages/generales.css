@@ -1,0 +1,451 @@
+.header-page{
+    padding: 0.5em;
+    background-color: var(--fondo-Cabecera);
+    color: white;
+    width: 100%;
+    margin: 0px auto auto;
+}
+
+.barra-menu{
+    display: flex;
+    height: 38px;
+    background-color: var(--fondo-Menu);
+    width: 100%;
+}
+
+select{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 35px;
+    padding: 5px;
+    color: var(--celeste);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#año{
+    padding-right: 15px;
+}
+
+#cargo{
+    padding-right: 30px;
+}
+
+#distrito{
+    padding-right: 30px;
+}
+
+.barra-menu button{
+    margin: 5px;
+    margin-right: 15px;
+    margin-left: -15px;
+    height: 28px;
+}
+
+.botones-3{
+    position: relative;
+    left: 10px;
+}
+
+.filtrar{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+    font: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--textos);
+    width: 90px;
+}
+
+.generales{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 95px;
+}
+
+.generales:hover{
+    background-color: var(--gris-claro);
+}
+
+.informes{
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 95px;
+}
+
+.informes:hover{
+    background-color: var(--gris-claro);
+}
+
+.inicio{
+    background-color: var(--gris-claro);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 670px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 95px;
+}
+
+.inicio:hover{
+    color: var(--textos);
+}
+
+.barra-de-mensajes p{
+    position: relative;
+    top: 30px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFffFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mens1{
+    background-color: var(--mensaje-usuario-verde);
+}
+
+.mens2{
+    background-color: var(--mensaje-usuario-rojo);
+}
+
+.mens3{
+    background-color: var(--mensaje-usuario-amarillo);
+}
+
+#sec-titulo h1{
+    margin: 70px 100px 5px;
+}
+
+.texto-path{
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: var(--celeste);
+}
+
+#sec-contenido button{
+    background-color: var(--gris-claro);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    width: 170px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#sec-contenido button:hover{
+    color: var(--textos);
+}
+
+#Capa_1{
+    position: relative;
+    bottom: 43px;
+}
+
+.mesas{
+    position: relative;
+    bottom: 50px;
+    left: 530px;
+    background-color: var(--celeste);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 184px;
+    height: 70px;
+    margin: 15px;
+}
+
+.mesas p{
+    font-size: 12px;
+    color: #FFF;
+    margin-top: 10px;
+    padding-left: 50px;
+    line-height: 1.5;
+}
+
+#Layer_1{
+    position: relative;
+    bottom: 38px;
+}
+
+.electo{
+    position: relative;
+    bottom: 135px;
+    left: 730px;
+    background-color: var(--magenta);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    height: 70px;
+    width: 184px;
+    margin: 15px;
+}
+
+.electo p{
+    font-size: 12px;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+#Layer_2{
+    position: relative;
+    bottom: 50px;
+}
+
+.escru{
+    position: relative;
+    bottom: 220px;
+    left: 930px;
+    background-color: var(--morado);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    height: 70px;
+    width: 184px;
+    margin: 15px;
+}
+
+.escru p{
+    font-size: 12px;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -220px;
+    margin-bottom: 50px;
+}
+
+.cuadros h4{
+    font-weight: bold;
+    padding: 0.8em 0 0 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.cuadro-1{
+    width: 320px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    position: relative;
+    right: 11px;
+}
+
+.cuadro-2{
+    width: 290px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.cuadro-3{
+    width: 310px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.titulo-1{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde-Grilla);
+    margin-left: -11px;
+    margin-right: -10px;
+}
+
+.cuadro-1 p{
+    font-size: 11px;
+    color: var(--textos);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.titulo-1-2{
+    position: relative;
+    bottom: 15px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-1-3{
+    position: relative;
+    bottom: 55px;
+    left: 200px;
+}
+
+.titulo-1-4{
+    position: relative;
+    bottom: -2px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-1-5{
+    position: relative;
+    bottom: 40px;
+    left: 200px;
+}
+
+.titulo-2{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde-Grilla);
+    margin-left: -11px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+
+.titulo-2-2{
+    position: relative;
+    bottom: 15px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-2-3{
+    position: relative;
+    bottom: 55px;
+    left: 200px;
+}
+
+.progress{ 
+    height: 20px; 
+    width: 102%; 
+    border-radius: 5px; 
+    margin-bottom: 15px;
+    margin-top: -50px;
+    margin-left: -5px;
+} 
+
+.progress-1{ 
+    height: 20px; 
+    width: 102%; 
+    border-radius: 5px; 
+    margin-top: -35px;
+    margin-left: -5px;
+} 
+
+.progress-bar{ 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    transition: width 0.25s; 
+    border-radius: 5px; 
+} 
+
+.progress-bar-text{ 
+    margin-left: 10px; 
+    font-weight: bold; 
+    color: var(--textos); 
+    font-size: 9px; 
+}
+
+.chart-wrap{ 
+    --chart-width: 260px; 
+    --grid-color: #aaa; 
+    --bar-thickness: 25px; 
+    --bar-rounded: 3px; 
+    --bar-spacing: 10px; 
+    font-family: sans-serif; 
+    width: var(--chart-width); 
+} 
+
+.chart-wrap .title{ 
+    font-weight: bold; 
+    padding: 1.8em 0 2.8em; 
+    text-align: center; 
+    white-space: nowrap; 
+} 
+
+.chart-wrap.horizontal .grid{ 
+    transform: rotate(-90deg);
+    margin-top: 20px;
+} 
+
+.chart-wrap.horizontal .bar::after{ 
+    transform: rotate(45deg); 
+    padding-top: 0px; 
+    display: block; 
+} 
+
+.chart-wrap .grid{ 
+    margin-left: 10px; 
+    position: relative; 
+    padding: 5px 0 5px 0; 
+    height: 100%; 
+    width: 100%; 
+    border-left: 2px solid var(--grid-color); 
+    font-size: 10px; 
+} 
+
+.chart-wrap .grid::before{ 
+    font-size: 0.8em;
+    font-weight: bold; 
+    content: '0%'; 
+    position: absolute; 
+    left: -0.5em; 
+    top: -1.5em; 
+} 
+
+.chart-wrap .grid::after{ 
+    font-size: 0.8em; 
+    font-weight: bold; 
+    content: '100%'; 
+    position: absolute; 
+    right: -1.5em; 
+    top: -1.5em; 
+} 
+
+.chart-wrap.horizontal .grid::before, .chart-wrap.horizontal .grid::after{ 
+    transform: rotate(90deg); 
+} 
+
+.chart-wrap .bar{ 
+    width: var(--bar-value); 
+    height: var(--bar-thickness); 
+    margin: var(--bar-spacing) 0; 
+    background-color: var(--bar-color); 
+    border-radius: 0 var(--bar-rounded) var(--bar-rounded) 0; 
+}
+
+.chart-wrap .bar:hover{ 
+    opacity: 0.7; 
+} 
+
+.chart-wrap .bar::after{ 
+    content: attr(data-name); 
+    margin-left: 100%; 
+    padding: 10px; 
+    display: inline-block; 
+    white-space: nowrap; 
+}

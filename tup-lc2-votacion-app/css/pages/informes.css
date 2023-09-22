@@ -1,0 +1,260 @@
+.header-page{
+    padding: 0.5em;
+    background-color: var(--fondo-Cabecera);
+    color: white;
+    width: 100%;
+    margin: 0px auto auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+.barra-menu{
+    display: flex;
+    height: 35px;
+    background-color: var(--fondo-Menu);
+    width: 100%;
+}
+
+.barra-menu p{
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.barra-menu button{
+    position: relative;
+    margin: 5px;
+    margin-left: 10px;
+    left: 10px;
+    width: 110px;
+    height: 25px;
+}
+
+.paso{
+    background-color: var(--magenta);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.paso:hover{
+    background-color: var(--gris-claro);
+}
+
+.generales{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.generales:hover{
+    background-color: var(--gris-claro);
+}
+
+.inicio{
+    background-color: var(--gris-claro);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative !important; 
+    left: 910px !important;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 95px;
+}
+
+.inicio:hover{
+    color: var(--textos);
+}
+
+.barra-de-mensajes p{
+    position: relative;
+    top: 30px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFffFF;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mens1{
+    background-color: var(--mensaje-usuario-verde);
+}
+
+.mens2{
+    background-color: var(--mensaje-usuario-rojo);
+}
+
+.mens3{
+    background-color: var(--mensaje-usuario-amarillo);
+}
+
+#sec-titulo h1{
+    margin: 60px 100px 5px;
+}
+
+table{ 
+    width: 1024px !important;
+    margin: 0px auto 50px auto;
+    border-radius: 15px !important;
+    border: 1px solid var(--borde-Grilla);
+    border-collapse: collapse !important;
+    background-color: rgb(250, 250, 250);
+}
+
+thead{
+    text-align: center;
+    color: var(--titulo-Grilla);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--borde-inferior-Grilla);
+}
+
+tr:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+td{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--borde-inferior-Grilla);
+    padding: 15px 0px;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.texto-elecciones-chico{
+    font-size: 12px;
+    color: var(--textos);
+    font-weight: bold;
+}
+
+.texto-path-chico{
+    font-size: 11px;
+    color: var(--celeste);
+}
+
+.recuadros{
+    display: flex;
+}
+
+#Capa_1{
+    position: relative;
+    bottom: 50px;
+    right: 35px;
+}
+
+.mesas{
+    background-color: var(--celeste);
+    border-radius: 5px;
+    width: 120px;
+    height: 70px;
+    margin: 2px;
+}
+
+.mesas p{
+    font-size: 10px;
+    color: #FFF;
+    margin-top: 5px;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 50px;
+    line-height: 1.5;
+}
+
+#Layer_1{
+    position: relative;
+    bottom: 38px;
+    right: 35px;
+
+}
+
+.electo{
+    background-color: var(--magenta);
+    border-radius: 5px;
+    height: 70px;
+    width: 120px;
+    margin: 2px;
+}
+
+.electo p{
+    font-size: 10px;
+    color: #FFF;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+#Layer_2{
+    position: relative;
+    bottom: 60px;
+    right: 35px;
+}
+
+.escru{
+    background-color: var(--morado);
+    border-radius: 5px;
+    height: 70px;
+    width: 120px;
+    margin: 2px;
+}
+
+.escru p{
+    font-size: 10px;
+    color: #FFF;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.titulo-1{
+    font-size: 11px;
+    color: var(--textos);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.titulo-1-2{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+}
+
+.titulo-1-3{
+    position: relative;
+    bottom: 55px;
+    left: 200px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    height: 325px;
+    padding: 5px;
+    font-size: 10px;
+    color: var(--textos);
+    margin-top: 20px;
+     
+}
+
+.juntos{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.num{
+    text-align: left;
+}

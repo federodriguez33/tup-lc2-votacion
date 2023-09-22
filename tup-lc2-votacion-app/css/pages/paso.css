@@ -152,7 +152,7 @@ select{
     width: 170px;
     height: 25px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #sec-contenido button:hover{
@@ -167,7 +167,7 @@ select{
 .mesas{
     position: relative;
     bottom: 50px;
-    left: 600px;
+    left: 530px;
     background-color: var(--celeste);
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -192,7 +192,7 @@ select{
 .electo{
     position: relative;
     bottom: 135px;
-    left: 800px;
+    left: 730px;
     background-color: var(--magenta);
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -216,7 +216,7 @@ select{
 .escru{
     position: relative;
     bottom: 220px;
-    left: 1000px;
+    left: 930px;
     background-color: var(--morado);
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -235,14 +235,9 @@ select{
 .cuadros{
     display: flex;
     flex-direction: row;
-}
-
-.cuadros div{
-    border-radius: 25px;
-    border: 1px var(--borde-Grilla) solid;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    margin: 50px;
-    width: 30%;
+    justify-content: center;
+    margin-top: -220px;
+    margin-bottom: 50px;
 }
 
 .cuadros h4{
@@ -253,8 +248,39 @@ select{
 }
 
 .cuadro-1{
-    max-height: 325px;
-    overflow-y: scroll; 
+    width: 320px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    position: relative;
+    right: 11px;
+}
+
+.cuadro-2{
+    width: 290px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.cuadro-3{
+    width: 310px;
+    border: 1px var(--borde-Grilla) solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.titulo-1{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde-Grilla);
+    margin-left: -11px;
+    margin-right: -10px;
 }
 
 .cuadro-1 p{
@@ -264,11 +290,69 @@ select{
     text-transform: uppercase;
 }
 
+.titulo-1-2{
+    position: relative;
+    bottom: 15px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-1-3{
+    position: relative;
+    bottom: 55px;
+    left: 200px;
+}
+
+.titulo-1-4{
+    position: relative;
+    bottom: -2px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-1-5{
+    position: relative;
+    bottom: 40px;
+    left: 200px;
+}
+
+.titulo-2{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--borde-Grilla);
+    margin-left: -11px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+
+.titulo-2-2{
+    position: relative;
+    bottom: 15px;
+    left: -11px;
+    font-weight: bold;
+}
+
+.titulo-2-3{
+    position: relative;
+    bottom: 55px;
+    left: 200px;
+}
+
 .progress{ 
-    height: 35px; 
-    width: 100%; 
+    height: 20px; 
+    width: 102%; 
     border-radius: 5px; 
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    margin-top: -50px;
+    margin-left: -5px;
+} 
+
+.progress-1{ 
+    height: 20px; 
+    width: 102%; 
+    border-radius: 5px; 
+    margin-top: -35px;
+    margin-left: -5px;
 } 
 
 .progress-bar{ 
@@ -284,4 +368,84 @@ select{
     font-weight: bold; 
     color: var(--textos); 
     font-size: 9px; 
+}
+
+.chart-wrap{ 
+    --chart-width: 260px; 
+    --grid-color: #aaa; 
+    --bar-thickness: 25px; 
+    --bar-rounded: 3px; 
+    --bar-spacing: 10px; 
+    font-family: sans-serif; 
+    width: var(--chart-width); 
+} 
+
+.chart-wrap .title{ 
+    font-weight: bold; 
+    padding: 1.8em 0 2.8em; 
+    text-align: center; 
+    white-space: nowrap; 
+} 
+
+.chart-wrap.horizontal .grid{ 
+    transform: rotate(-90deg);
+    margin-top: 20px;
+} 
+
+.chart-wrap.horizontal .bar::after{ 
+    transform: rotate(45deg); 
+    padding-top: 0px; 
+    display: block; 
+} 
+
+.chart-wrap .grid{ 
+    margin-left: 10px; 
+    position: relative; 
+    padding: 5px 0 5px 0; 
+    height: 100%; 
+    width: 100%; 
+    border-left: 2px solid var(--grid-color); 
+    font-size: 10px; 
+} 
+
+.chart-wrap .grid::before{ 
+    font-size: 0.8em;
+    font-weight: bold; 
+    content: '0%'; 
+    position: absolute; 
+    left: -0.5em; 
+    top: -1.5em; 
+} 
+
+.chart-wrap .grid::after{ 
+    font-size: 0.8em; 
+    font-weight: bold; 
+    content: '100%'; 
+    position: absolute; 
+    right: -1.5em; 
+    top: -1.5em; 
+} 
+
+.chart-wrap.horizontal .grid::before, .chart-wrap.horizontal .grid::after{ 
+    transform: rotate(90deg); 
+} 
+
+.chart-wrap .bar{ 
+    width: var(--bar-value); 
+    height: var(--bar-thickness); 
+    margin: var(--bar-spacing) 0; 
+    background-color: var(--bar-color); 
+    border-radius: 0 var(--bar-rounded) var(--bar-rounded) 0; 
+}
+
+.chart-wrap .bar:hover{ 
+    opacity: 0.7; 
+} 
+
+.chart-wrap .bar::after{ 
+    content: attr(data-name); 
+    margin-left: 100%; 
+    padding: 10px; 
+    display: inline-block; 
+    white-space: nowrap; 
 }
